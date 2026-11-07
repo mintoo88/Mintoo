@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cash Crunch</string>
+    <string name="title_activity_main">Cash Crunch</string>
+    <string name="package_name">com.mintoo.cashcrunch</string>
+    <string name="custom_url_scheme">com.mintoo.cashcrunch</string>
+</resources>

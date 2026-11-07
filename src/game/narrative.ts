@@ -1,0 +1,115 @@
+import { PhoneCallMilestone } from '../types/game';
+
+export const MR_BUCK_MILESTONES: PhoneCallMilestone[] = [
+  {
+    id: 'milestone_start',
+    triggerCash: 0,
+    title: 'Welcome to the Workshop',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'Welcome, new recruit! You skipped orientation, which I respect—orientation is for bureaucrats.',
+      'Here is the deal: my vault is overflowing with $100 Quintillion in cold, hard cash.',
+      'Grab that VIP card, swipe it through the ATM reader, and drag the rotary breaker over the bills to shred them to pulp.',
+      'Every shred flies into the waste bin and credits your account. Do not ask questions. Shred it all!',
+    ],
+    unlockedFeature: 'ATM Card Reader & Breaker Saw',
+  },
+  {
+    id: 'milestone_10',
+    triggerCash: 10,
+    title: 'Pacing & Optimization',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'Ten dollars destroyed! Only $99,999,999,999,999,999,990 left to shred.',
+      'At this rate, the sun will go supernova before we dent my net worth.',
+      'I have unlocked the Breaker and Withdrawal upgrade panels on the left and right.',
+      'Upgrade your saw radius and swipe amount immediately. Time is our most valuable asset!',
+    ],
+    unlockedFeature: 'Dual Upgrade Panels (Breaker & Withdrawal)',
+  },
+  {
+    id: 'milestone_50',
+    triggerCash: 50,
+    title: 'The Branching Skill Tree',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'Fifty dollars! Okay, you have got rhythm, kid.',
+      'I am opening up the Workshop Skill Tree on the top console.',
+      'Reinvest your shredded cash into diamond honing, electrical tesla coils, and high-denomination $5, $10, and $20 currency plates.',
+    ],
+    unlockedFeature: 'Workshop Skill Tree ($ Cash)',
+  },
+  {
+    id: 'milestone_prestige_bar',
+    triggerCash: 1000,
+    title: 'Prestige Points (PP)',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'Do you see those glowing golden orbs streaming into the top CRT monitor?',
+      'That is Prestige progress—or "PP" for short. Stop giggling, it is serious financial terminology!',
+      'I make ten grand in the time it takes to sneeze. Fill the PP bar to unlock meta-talents that never reset.',
+    ],
+    unlockedFeature: 'Glowing Prestige Orbs & PP Bar',
+  },
+  {
+    id: 'milestone_100k',
+    triggerCash: 100000,
+    title: 'First Shift End',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'One hundred thousand dollars reduced to fine confetti!',
+      'You are now eligible to End Your Shift. Yes, it wipes your in-shift pocket cash and basic upgrades to zero...',
+      '...but you keep all your earned Prestige Points! Use them in the Prestige Tree for Deep Pockets and the Auto Swiper.',
+    ],
+    unlockedFeature: 'Shift Reset & Permanent Prestige Tree',
+  },
+  {
+    id: 'milestone_auto_swiper',
+    triggerCash: 250000,
+    title: 'Industrial Automation',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'Ah, the sweet robotic hum of the motorized Auto Swiper battery module!',
+      'I spent my twenties automating entire supply chains so I could sit in the Bahamas while robots generated billions.',
+      'Pure industrial poetry! Now turn up the cutting speed and let the shredder feast!',
+    ],
+    unlockedFeature: 'Auto Swiper Motor Module',
+  },
+  {
+    id: 'milestone_million',
+    triggerCash: 1000000,
+    title: 'The First Million',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'A million dollars in ash! You know what I did when I made my first million?',
+      'I bought 24-karat solid gold toilet paper. Terribly scratchy, but it made a statement.',
+      'I had to order a wider monitor just to fit our balance on the screen!',
+    ],
+    unlockedFeature: 'Stock Certificates & High-Roller Notes',
+  },
+  {
+    id: 'milestone_billion',
+    triggerCash: 1000000000,
+    title: 'Billionaire Status',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'One Billion Dollars! Most mortals spend lifetimes dreaming of this number.',
+      'You just tore it into ribbons before lunch. Look at those frenzy chains arc across the felt!',
+      'Keep going. $100 Quintillion is the target, and we are accelerating exponentially.',
+    ],
+    unlockedFeature: 'Max Frenzy Overdrive (Stage 5)',
+  },
+  {
+    id: 'milestone_finale',
+    triggerCash: 100000000000000000,
+    title: 'The $100 Quintillion Finale',
+    speaker: 'Mr. Buck',
+    dialogue: [
+      'You... you actually did it. Every single bill in the vault. All one hundred quintillion dollars. Gone.',
+      'Let me tell you a secret, kid. I missed my daughter\'s wedding while chasing numbers on a ledger.',
+      'My doctor gave me one year to live, and I wanted to see if anyone was crazy enough to shred it all to nothing.',
+      'You proved that money is just paper and ink. Your true severance check is waiting at the front desk... now go out and live your life!',
+    ],
+    unlockedFeature: 'Infinite Freeplay Sandbox Unlocked',
+  },
+];

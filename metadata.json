@@ -1,0 +1,6 @@
+{
+  "name": "Cash Crunch",
+  "description": "A satisfying money-shredding arcade incremental game. Drag your rotary shredder across the workshop tabletop, trigger explosive chain reactions, unlock automation, and prestige to build the ultimate cash processing empire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
